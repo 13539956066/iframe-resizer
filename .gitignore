@@ -4,3 +4,4 @@ bin
 example/test.html
 test/*.off
 dist
+_site
