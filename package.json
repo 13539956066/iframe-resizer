@@ -75,5 +75,12 @@
     "responsive-iframe",
     "responsive-iframes",
     "jquery-plugin"
-  ]
+  ],
+  "spm": {
+    "main": "src/iframeResizer.js",
+    "output": [
+      "src/iframeResizer.contentWindow.js"
+    ],
+    "buildArgs": "--include umd"
+  }
 }
